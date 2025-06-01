@@ -1,3 +1,7 @@
+'''
+Build a simple calulator using Tkinter or any other GUI library in Python.
+'''
+
 from tkinter import *
 
 cal=Tk()
