@@ -8,7 +8,7 @@ db=mysql.connector.connect(host="localhost",user="root",password="12345", databa
 
 cur=db.cursor()
 
-cur.execute("CREATE TABLE Contact (S_No int primary key, FirstName varchar(30) not null, LastName varchar(40) not null, PhoneNumber int unique, Email_Id varchar(40) unique, Place_of_Birth varchar(30) not null)")
+#cur.execute("CREATE TABLE Contact (S_No int primary key, FirstName varchar(30) not null, LastName varchar(40) not null, PhoneNumber int unique, Email_Id varchar(40) unique, Place_of_Birth varchar(30) not null)")
 
 def insert_contact():
     S_No = int(input("Enter Number: "))
