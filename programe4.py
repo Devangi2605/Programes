@@ -19,7 +19,7 @@ class WeatherApp:
         # API configuration
         self.api_key = "7a902715986376aac2ac960d16e2fd59"
         self.base_url = "http://api.openweathermap.org/data/2.5/forecast"
-
+# To help from open weather map because of API
         # GUI Elements
         self.create_widgets()
         self.setup_plot_area()
